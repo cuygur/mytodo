@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f3f3f3;
+  justify-content: center;
+  align-items: center;
+}
+
+.toDo-app-header {
+  text-align: center;
+  color: #1a73e8;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.sub-header {
+  color: #1a73e8;
+}
+
+.login-container {
+  width: 90%;
+  margin: 0 auto;
+  font-family: helvetica;
+  background: #fff;
+  max-width: 100%;
+  padding: 6rem 1rem;
+  border-radius: 3px;
+  border: 1px solid #eee;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+h3 {
+  color: #1a73e8;
+  font-size: 1.1em;
+}
+
+.login-username,
+.todo-content,
+.todo-edit {
+  display: flex;
+  width: 20rem;
+  border: 1px solid #ddd;
+  padding: 10px;
+  outline: none;
+  border-radius: 3px;
+  transition: all 0.3ms;
+  max-width: 100%;
+}
+
+.login-username {
+  margin-bottom: 1rem;
+}
+
+input:focus {
+  border: 1px solid #1a73e8;
+}
+
+button {
+  margin-bottom: 0;
+  margin-right: 0.5rem;
+}
+
+.login-btn,
+.update-todo-btn,
+.cancel-update-todo-btn {
+  background-color: #1a73e8;
+  color: seashell;
+  padding: 0.5rem 2rem;
+  border-color: #1a73e8;
+  margin-left: 0.5rem;
+}
+
+.add-todo-btn {
+  background-color: #1a73e8;
+  color: seashell;
+  padding: 0.5rem 2.6rem;
+  border-color: #1a73e8;
+  margin-left: 0.5rem;
+}
+
+.edit-todo-btn {
+  background-color: #1a73e8;
+  color: seashell;
+  padding: 0.5rem 1.5rem;
+  align-self: center;
+  border-color: #1a73e8;
+  margin: 0.25rem;
+}
+.delete-todo-btn {
+  background-color: red;
+  color: seashell;
+  padding: 0.5rem 1rem;
+  align-self: center;
+  border-color: red;
+  margin: 0.25rem;
+}
+
+.logout-btn {
+  background-color: #1a73e8;
+  color: seashell;
+  padding: 3px 15px;
+  align-self: center;
+  border-color: #1a73e8;
+}
+
+.logout-btn {
+  margin-left: 1rem;
+}
+
+.userInfo-container {
+  display: flex;
+  justify-content: end;
+}
+
+.edit-form,
+.todo-detail {
+  display: flex;
+  align-items: center;
+}
+
+.todo-item {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.todo-with-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-details {
+  display: flex;
+  justify-content: center;
+}
+
+.todos-container {
+  border: solid white 0.5px;
+  background: white;
+  height: 60vh;
+  width: 36.5rem;
+  box-sizing: border-box;
+  overflow: scroll;
+  padding: 1rem 1.5rem;
+}
+
+.todo-app-container {
+  margin: 1rem 4rem;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+}
